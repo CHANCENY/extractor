@@ -1,0 +1,17 @@
+{
+    "name": "nyasu/extractor",
+    "description": "excel data reader",
+    "require": {
+        "shuchkin/simplexlsx": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nyasu\\Extractor\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Chance Nyasulu"
+        }
+    ]
+}
