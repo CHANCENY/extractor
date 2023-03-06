@@ -1,0 +1,8 @@
+extractor.Extractor:
+  path: '/extractor'
+  defaults:
+    _form: '\Drupal\extractor\Form\Extractor'
+    _title: 'Extractor Form'
+  requirements:
+    _permission: 'access content'
+    _access: 'TRUE'
